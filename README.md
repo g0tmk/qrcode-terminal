@@ -1,11 +1,12 @@
 # Qrcode (for terminals)
 
-Simple python program to show qrcodes in a terminal.
+#### Simple python program to show qrcodes in a terminal.
 
-Usage: in command line:
-  windows:
-    `C:\Python27\python.exe qrcode-terminal "Text to embed in a QR code"`
-  linux:
-    `python ./qrcode-terminal "Text to embed in a QR code"`
+#### Usage:
+  - windows: `C:\Python27\python.exe qrcode-terminal "Text to embed in a QR code"`
+  - linux: `python ./qrcode-terminal "Text to embed in a QR code"`
 
+
+#### TODOS:
+  - use unicode to increase pixel resolution OR generate an image the terminal can understand (like ranger)
 
