@@ -9,4 +9,5 @@
 
 #### TODOS:
   - use unicode to increase pixel resolution OR generate an image the terminal can understand (like ranger)
+    - see https://github.com/asciimoo/drawille
 
