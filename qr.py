@@ -9,8 +9,8 @@ def main():
     try:
         input_str = sys.argv[1]
     except IndexError:
-        print("requires an input string as first argument")
-        exit(1)
+        print("reading from stdin", file=sys.stderr)
+        input_str = "\n".join([line.rstrip('\n') for line in sys.stdin.readlines()])
 
     qr = pyqrcode.create(input_str)
 
